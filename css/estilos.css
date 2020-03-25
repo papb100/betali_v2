@@ -1,0 +1,55 @@
+
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+*{
+    font-family: "Titillium Web",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    --color-base: #343A40;
+    --letra-base: #fff;
+    --borde-base: #ccc;
+}
+
+.myJT{
+    background:var(--color-base);
+    color:var(--letra-base);
+    padding: 18px;
+    border-bottom:8px solid var(--borde-base) ;
+}
+
+form , .contenedor{
+    border-top:.1em solid var(--borde-base) ;
+    border-bottom:.1em solid var(--borde-base) ;
+    border-left:.1em solid var(--borde-base) ;
+    border-right:.1em solid var(--borde-base) ;
+    padding: 32px;
+    border-radius: 0px;
+    background: var(--letra-base);
+    margin-bottom: 8px;
+}
+
+.hTabla{
+    background:var(--color-base);
+    color:var(--letra-base);
+    text-align: center;
+}
+
+table{
+    margin-top: 10px;
+}
+
+.textoBase{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.btnEspacio {
+    margin-bottom: 8px;
+  }
+
+  img{
+      max-height: 250px;;
+  }
